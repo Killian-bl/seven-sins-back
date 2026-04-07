@@ -2,6 +2,7 @@ package com.killian.seven_sins_game.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 public class DailyGame {
@@ -10,6 +11,7 @@ public class DailyGame {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate gameDate;
 
     @ManyToOne

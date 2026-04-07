@@ -14,7 +14,7 @@ public class Character {
     private String race;
     private String power;
     private String affiliation;
-    private String appearence;
+    private Integer appearance;
     private String imageUrl;
 
     public Integer getId() { return id; }
@@ -32,8 +32,8 @@ public class Character {
     public String getAffiliation() { return affiliation; }
     public void setAffiliation(String affiliation) { this.affiliation = affiliation; }
 
-    public String getAppearence() { return appearence; }
-    public void setAppearence(String appearence) { this.appearence = appearence; }
+    public Integer getAppearance() { return appearance; }
+    public void setAppearance(Integer appearance) { this.appearance = appearance; }
 
     public String getImageUrl() { return imageUrl; }
     public void setImageUrl(String imageUrl) { this.imageUrl = imageUrl; }
