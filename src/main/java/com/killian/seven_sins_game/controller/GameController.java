@@ -4,7 +4,7 @@ import com.killian.seven_sins_game.model.DailyGame;
 import com.killian.seven_sins_game.service.GameService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://seven-deadly-sins-dle.netlify.app")
 @RestController
 @RequestMapping("/api/game")
 public class GameController {

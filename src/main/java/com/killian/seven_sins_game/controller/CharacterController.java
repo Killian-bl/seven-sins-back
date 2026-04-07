@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/characters")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://seven-deadly-sins-dle.netlify.app")
 public class CharacterController {
 
     private final CharacterRepository characterRepository;
